@@ -7,31 +7,161 @@
     <meta name="description" content="This is real actor">
     <meta name="viewport" content="width=device-width initial-scale=1">
     <meta name="theme-color" content="black">
+    <link rel="stylesheet" href="assets/CSS/normalize.css">
+
+
+    <style>
+
+       header>session>div{
+            /*border: 1px solid red;*/
+            position: static;
+            left: 0px;
+            width: auto;
+            height: 50px;
+            background-color: grey;
+            right: 500px;
+            left: 200px;
+        }
+
+       header>session>div>ul{
+            position: absolute;
+            right: 30px;
+            bottom: 0;
+            top: 0;
+        <!--   -->
+        /*
+            margin: auto;
+*/
+            height: 30px;
+            list-style: none;
+       }
+
+        header>session>div>ul>li{
+            font-family: 'Playfair Display', serif;
+            display: inline-block;
+            padding-right:  5px;
+            padding-left: 5px;
+        }
+
+        session>div>img{
+            position: relative;
+            z-index: 100;
+            left: 15px;
+        }
+
+        main>session>div>img{
+            position: absolute;
+            top: 60px;
+            /*left: 35px;
+            top: 20px;*/
+        }
+
+        main>session>div{
+            /*border: 1px solid red;*/
+            position: relative;
+            top: 5px;
+            left: auto;
+            right: auto;
+            width: auto;
+            height: 700px;
+            background-color: grey;
+
+        }
+        
+        main>session>div>h5{
+            /* Hello i'm */
+            position: relative;
+            right: auto;
+            width: auto;
+            left: 500px;
+            bottom: auto;
+            font-size: 25px;
+        }
+
+        main>session>div>h1{
+           /* SHEHAN */
+            position: relative;
+            top: auto;
+            right: auto;
+            width: auto;
+            left: 550px;
+            font-size: 75px;
+        }
+
+       main>session>div>div>h1{
+           /* GOVINDA */
+           position: relative;
+           top: 20px;
+           right: auto;
+           width: auto;
+           left: 650px;
+           font-size: 75px;
+       }
+
+       main>session>div>h4{
+           position: relative;
+           top: 200px;
+       }
+    </style>
 </head>
 <body>
 <header>
-    <pre>About Skill Gallery Project Contact me</pre>
-
-
-
+    <session>
+        <div>
+            <img src="assets/images/SL-Govinda.png" alt="Logo" height="80">
+    <ul>
+        <li>About</li>
+        <li>Education</li>
+        <li>Skill</li>
+        <li>Gallery</li>
+        <li>Project</li>
+        <li>Contact me</li>
+    </ul>
+        </div>
+    </session>
 
 </header>
 <main>
     <session>
+        <div>
+        <img src="assets/images/My%20Image.png" alt="Profile Image" height="250">
+
         <br>
         <h5>Hello I'm....</h5>
+           <!-- <br><br><br><br>-->
         <h1>SHEHAN</h1>
+           <!-- <br><br><br>-->
+            <div>
         <h1>GOVINDA</h1>
-        <h4>Name : Shehan Govinda.<br></h4>
-        <h4>Age : 26<br></h4>
-        <h4>Location : Weligama , Matara , Sri Lanka.<br></h4>
-        <h4>E-Mail : shehangovinda210@gmail.com<br></h4>
-        <h4>Phone : +9471 4048339<br></h4>
+                <!--<br><br><br>-->
+            </div>
+        <div>
+            <h3>About Me</h3>
+            <h4>Name : Shehan Govinda.<br></h4>
+            <h4>Age : 26<br></h4>
+            <h4>Location : Weligama , Matara , Sri Lanka.<br></h4>
+            <h4>E-Mail : shehangovinda210@gmail.com<br></h4>
+            <h4>Phone : +9471 4048339<br></h4>
+        </div>
 
         <h4> I am undergraduate student of Software Engineering in IJSE.<br></h4>
+        </div>
     </session>
     <session>
         <h4>Education</h4>
+        <h5>GDSE Degree</h5>
+        <h5>2021</h5>
+        <h5>Institute of Software Engineering</h5>
+        <br>
+        <h5>Higher Education</h5>
+        <h5>2015</h5>
+        <h5>Mr/Siddartha College</h5>
+        <br>
+        <h5>Primary Education</h5>
+        <h5>2001-2011</h5>
+        <h5>Mr/Siddartha College</h5>
+
+
     </session>
     <session>
         <h4>Skills</h4>
@@ -54,19 +184,41 @@
     </session>
     <session>
         <h4>Assignments</h4>
-        <a href="myprojects/CSS%20Assignments/Assignment_01/CSS/index.html">Assignment 01</a>
+        <a href="myprojects/CSS%20Assignments/Assignment_01/index.html">Assignment 01</a>
+        <a href="myprojects/CSS%20Assignments/Assignment_02/index.html">Assignment 02</a>
 
     </session>
     <session>
         <h4>Gallery</h4>
+
+    </session>
+    <session>
+
     </session>
     <session>
         <h4>Contact Us</h4>
+        <iframe [um- src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31744.13422944449!2d80.41586895409058!3d5.99242532221553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae115377cc3eaf9%3A0x2463154f2d989243!2sWeligama!5e0!3m2!1sen!2slk!4v1641658472254!5m2!1sen!2slk" width="350" height="350" style="border:1px;" allowfullscreen="" loading="lazy"></iframe>
+
+        <from action ="">
+            <fieldset>
+                <input id ="txtName" type="text" placeholder="Name"><br><br>
+                <input id ="txtEmail" type="text" placeholder="What's Your e-mail?"><br><br>
+                <input id ="txtQuestion" type="text" placeholder="Your Question">
+            </fieldset>
+        </from>
+        <button>Submit</button>
+
+
     </session>
 
 
 </main>
 <footer>
+    <img src="assets/images/Social%20Media/1.png" width="150" alt="What's app">
+    <img src="assets/images/Social%20Media/2.png" width="150" alt="linked in">
+    <img src="assets/images/Social%20Media/3.png" width="150" alt="Git Hub">
+    <img src="assets/images/Social%20Media/4.png" width="150" alt="Facebook Instagram Twitter">
+    <img src="assets/images/Social%20Media/5.png" width="150" alt="Youtube">
     <h2> W.G.Shehan Govinda.All Right Reserved.</h2>
     <h2>Java Software Developer.</h2>
 
