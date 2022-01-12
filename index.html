@@ -12,10 +12,29 @@
 
     <style>
 
+        body > header {
+            overflow: hidden;
+        }
+
+        body > main {
+            overflow: hidden;
+        }
+
+        body > footer {
+            overflow: hidden;
+        }
+
+
+        header > session > div > img {
+            position: absolute;
+            left: 10px;
+            top: 5px;
+            z-index: 100;
+        }
+
         header > session > div {
             /*border: 1px solid red;*/
             position: static;
-            left: 0px;
             width: auto;
             height: 50px;
             background-color: grey;
@@ -64,7 +83,7 @@
             width: auto;
             height: 650px;
             bottom: auto;
-            background-color: grey;
+            background-color: gray;
 
         }
 
@@ -186,10 +205,11 @@
 
         }
 
+        /**/
         main > session > session > div {
             position: relative;
-            background-color: grey;
-            top: -5px;
+            background-color: gray;
+            top: -3px;
             width: auto;
             height: 750px;
             left: auto;
@@ -219,7 +239,7 @@
             top: 40px;
         }
 
-        main > session > session > div > h2{
+        main > session > session > div > h2 {
             position: relative;
             left: 30px;
             width: auto;
@@ -230,7 +250,7 @@
 
         }
 
-        main > session > session > div > h3{
+        main > session > session > div > h3 {
             position: relative;
             left: 30px;
             width: auto;
@@ -241,7 +261,7 @@
 
         }
 
-        main > session > session > div >div > h1{
+        main > session > session > div > div > h1 {
             position: relative;
             left: 750px;
             width: auto;
@@ -252,7 +272,7 @@
 
         }
 
-        main > session > session > div >div > h2{
+        main > session > session > div > div > h2 {
             position: relative;
             left: 750px;
             width: auto;
@@ -262,7 +282,8 @@
             top: 182px;
 
         }
-        main > session > session > div >div > h3{
+
+        main > session > session > div > div > h3 {
             position: relative;
             left: 750px;
             width: auto;
@@ -273,7 +294,7 @@
 
         }
 
-        main > session > session > div >div > h5{
+        main > session > session > div > div > h5 {
             position: relative;
             left: 25px;
             width: auto;
@@ -284,7 +305,7 @@
 
         }
 
-        main > session > session > div >div > h3{
+        main > session > session > div > div > h3 {
             position: relative;
             left: 750px;
             width: auto;
@@ -293,6 +314,87 @@
             font-size: 15px;
             top: 170px;
 
+        }
+
+        main > session > session > div > div > div > h2 {
+            position: relative;
+            left: 27px;
+            width: auto;
+            right: auto;
+            bottom: auto;
+            font-size: 15px;
+            top: 380px;
+
+        }
+
+        main > session > session > div > div > div > h1 {
+            position: relative;
+            left: 27px;
+            width: auto;
+            right: auto;
+            bottom: auto;
+            font-size: 15px;
+            top: 370px;
+
+        }
+
+        main > session > session > session > session > div > h4 {
+            position: relative;
+            font-size: 12px;
+            top: auto;
+            width: auto;
+            height: 10px;
+            left: auto;
+            right: auto;
+            bottom: 5px;
+
+        }
+
+        main > session > session > session > div > div {
+            position: relative;
+            background-color: grey;
+            top: -22px;
+            width: auto;
+            height: 600px;
+            left: auto;
+            right: auto;
+            bottom: 500px;
+        }
+
+        main > session > session > session > div > div > h4 {
+            position: relative;
+            left: 10px;
+            top: 10px;
+            font-size: 20px;
+        }
+
+        main > session > session > session > div > div > h3 {
+            position: relative;
+            left: 725px;
+            top: 10px;
+            font-size: 30px;
+        }
+
+            /*HTML logo*/
+        main > session > session > session > div > div > div > img {
+            position: relative;
+            left: 150px;
+            top: 10px;
+            font-size: 30px;
+        }
+        /*java logo*/
+        main > session > session > session > div > div > div > div > img {
+            position: relative;
+            left: 600px;
+            top: -200px;
+            font-size: 30px;
+        }
+        /*css logo*/
+        main > session > session > session > div > div > div > div > div > img {
+            position: relative;
+            left: 1125px;
+            top: -520px;
+            font-size: 30px;
         }
 
 
@@ -352,21 +454,21 @@
         <session>
             <div>
                 <section>
-                    <div style=" border-radius: 50%; width: 25%; height: 50%; left: 10%; top: 5%" >
+                    <div style=" border-radius: 50%; width: 25%; height: 50%; left: 10%; top: 5%">
                         <section
-                                style="width: 15%; height: 5.4%; background-color: red; left: 1.7%; top: 6.7%;  position: absolute" ></section>
+                                style="width: 15%; height: 5.4%; background-color: red; left: 1.7%; top: 6.7%;  position: absolute"></section>
                     </div>
                 </section>
                 <section>
-                    <div style=" border-radius: 50%; width: 25%; height: 50%; left: 10%; top: 5%" >
+                    <div style=" border-radius: 50%; width: 25%; height: 50%; left: 10%; top: 5%">
                         <section
-                                style="width: 15%; height: 5.4%; background-color: green; left: 49.3%; top: 40%;      position: absolute" ></section>
+                                style="width: 15%; height: 5.4%; background-color: green; left: 49.3%; top: 40%;      position: absolute"></section>
                     </div>
                 </section>
                 <section>
-                    <div style=" border-radius: 50%; width: 25%; height: 50%; left: 10%; top: 5%" >
+                    <div style=" border-radius: 50%; width: 25%; height: 50%; left: 10%; top: 5%">
                         <section
-                                style="width: 15%; height: 5.4%; background-color:darkgray; left: 1.7%; top: 80%;      position: absolute" ></section>
+                                style="width: 15%; height: 5.4%; background-color:darkgray; left: 1.7%; top: 80%;      position: absolute"></section>
                     </div>
                 </section>
                 <h4>Education</h4>
@@ -374,14 +476,17 @@
                 <h2>2021</h2>
                 <h3>Institute of Software Engineering</h3>
                 <div>
-                <h1>Higher Education</h1>
-                <h2>2015</h2>
-                <h3>Mr/Siddartha College</h3>
-                    </div>
+                    <h1>Higher Education</h1>
+                    <h2>2015</h2>
+                    <h3>Mr/Siddartha College</h3>
+                </div>
                 <div>
+
                     <h5>Primary Education</h5>
-                    <h2>2001-2011</h2>
-                    <h1>Mr/Siddartha College</h1>
+                    <div>
+                        <h2>2001-2011</h2>
+                        <h1>Mr/Siddartha College</h1>
+                    </div>
                 </div>
 
             </div>
@@ -389,11 +494,31 @@
         </session>
     </session>
     <session>
-        <h4>Skills</h4>
-        <h3>Language</h3>
-        <img src="assets/images/Skills/Language/HTML.png" alt="" height="150">
-        <img src="assets/images/Skills/Language/java-logo.png" alt="" height="150">
-        <img src="assets/images/Skills/Language/CSS.png" alt="" height="150">
+        <session>
+            <session>
+                <div>
+                    <div>
+                        <h4>Skills</h4>
+                        <h3>Language</h3>
+                        <div>
+                            <img src="assets/images/Skills/Language/HTML.png" alt="" height="200">
+                            <div>
+                                <img src="assets/images/Skills/Language/java-logo.png" alt="" height="300">
+                                <div>
+                                    <img src="assets/images/Skills/Language/CSS.png" alt="" height="250">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </session>
+
+        </session>
+
+
     </session>
     <session>
         <h3>Tools</h3>
