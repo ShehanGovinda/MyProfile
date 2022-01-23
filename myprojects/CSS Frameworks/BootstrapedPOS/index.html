@@ -36,9 +36,103 @@
 <session>
     <div>
        <h1> Customer </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <fieldset disabled>
+                            <legend>Customer Search</legend>
+                            <div class="mb-3">
 
+                                <input type="text" id="disabledTextInput" class="form-control" placeholder="Input Nic , Tp ">
+                            </div>
+                            <div class="mb-3">
+                                <select id="disabledSelect" class="form-select">
+                                    <option> Name </option>
+                                </select>
+                            </div>
 
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col">
+                    <!---->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">New Customer</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!---->
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputId" class="form-label">Customer ID :</label>
+                                            <input type="cusId" class="form-control" id="exampleInputId" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputName" class="form-label">Customer Name :</label>
+                                            <input type="cusName" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputAddress" class="form-label">Customer Address :</label>
+                                            <input type="cusAddress" class="form-control" id="exampleInputAddress" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputSalary" class="form-label">Customer Salary :</label>
+                                            <input type="cusSalary" class="form-control" id="exampleInputSalary" aria-describedby="emailHelp">
+                                        </div>
+                                    </form>
+
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                        <button class="btn btn-primary me-md-2" type="button">Save</button>
+                                        <button class="btn btn-primary" type="button">Review</button>
+                                        <button class="btn btn-primary" type="button">Close</button>
+                                    </div>
+
+                                    <!---->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-dark" data-bs-toggle="modal" href="#exampleModalToggle" role="button">New Customer</a>
+                    <!---->
+                    <button>View All Customers</button>
+                </div>
+            </div>
+        </div>
     </div>
+    <br>
+    <div class="col">
+
+        <button type="button" class="btn btn-outline-primary" href="model">Delete</button>
+        <button type="button" class="btn btn-outline-secondary">Detail</button>
+        <button type="button" class="btn btn-outline-success">Clear</button>
+    </div>
+
+    <!--<div>
+        <div class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
 </session>
 <footer>
 
