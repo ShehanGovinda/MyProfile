@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1">
     <meta name="theme-color" content="black">
     <link rel="stylesheet" href="assets/CSS/normalize.css">
-
+    <meta name="viewport" content="width=device-width, initial scale=1">
 
     <style>
 
@@ -22,6 +22,12 @@
 
         body > footer {
             overflow: hidden;
+        }
+
+        main {
+            position: inherit;
+            top: 20px;
+            height: 4440px;
         }
 
 
@@ -448,7 +454,7 @@
         main > session > session > session > session > div {
             position: relative;
             background-color: #585858;
-            top: -63px;
+            top: -70px;
             height: 550px;
         }
 
@@ -485,12 +491,12 @@
             right: auto;
         }
 
-        main > session > session > session > session > session > session > session > div {
-            position: relative;
-            top: -80px;
-            height: 120px;
-            background-color: #585858;
-        }
+        /* main > session > session > session > session > session > session > session > div {
+             position: relative;
+             top: -80px;
+             height: 120px;
+             background-color: red;
+         }*/
 
         main > session > session > session > session > session > session > session > div > h4 {
             position: relative;
@@ -513,14 +519,15 @@
             font-size: 25px;
             left: 12px;
             top: 5px;
+
         }
 
         /*Gallery background*/
         main > session > session > session > session > session > session > div {
             position: relative;
-            top: -110px;
+            top: -115px;
             background-color: #585858;
-            height: 450px;
+            height: 500px;
         }
 
         main > session > session > session > session > session > session > div > div > img {
@@ -545,8 +552,8 @@
         /*Assignment background*/
         main > session > session > session > session > session > session > session > session > div {
             position: relative;
-            top: -85px;
-            height: 120px;
+            top: -90px;
+            height: 250px;
             background-color: #585858;
         }
 
@@ -560,8 +567,8 @@
         main > session > session > session > session > session > session > session > session > session > div {
             position: relative;
             background-color: #585858;
-            height: 550px;
-            top: -130px;
+            height: 500px;
+            top: -135px;
         }
 
         main > session > session > session > session > session > session > session > session > session > div > h4 {
@@ -585,46 +592,111 @@
             bottom: -10px;
         }
 
-        main > session > session > session > session > session > session > session > session > session > div > frome {
+        main > session > session > session > session > session > session > session > session > session > div > from > div {
             position: relative;
-            left: 100px;
-            bottom: -10px;
+            left: 800px;
+            bottom: 310px;
+            width: 550px;
         }
 
-        body > footer > session > session > div {
+        /*footer{
+            position: relative;
+            height: 100px;
+        }*/
+        footer > session > session > div {
             position: relative;
             background-color: black;
+            top: auto;
+            bottom: auto;
+            left: auto;
+            right: auto;
+            height: 200px;
         }
 
+        /*what's app*/
         footer > session > session > div > div > img {
             position: relative;
-            left: 250px;
-            bottom: -70px;
+            left: 555px;
+            bottom: -55px;
+            z-index: 100;
 
         }
 
+        /*Linked in*/
         footer > session > session > div > div > div > img {
             position: relative;
-            left: 360px;
-            bottom: 2px;
+            left: 600px;
+            bottom: 10px;
 
         }
 
-        footer > session > session > div > div > div > div > div > div > div > h2 {
+        /*Git hub*/
+        footer > session > session > div > div > div > div > img {
+            position: relative;
+            left: 660px;
+            bottom: 65px;
+
+        }
+
+        /*facebook*/
+        footer > session > session > div > div > div > div > div > div > img {
+            position: relative;
+            left: 712px;
+            bottom: 170px;
+
+        }
+
+        /*instegrame*/
+        footer > session > session > div > div > div > div > div > div > div > img {
+            position: relative;
+            left: 758px;
+            bottom: 220px;
+
+        }
+
+        /*Twitter*/
+        footer > session > session > div > div > div > div > div > div > div > div > img {
+            position: relative;
+            left: 805px;
+            bottom: 273px;
+
+        }
+
+        /*Youtube*/
+        footer > session > session > div > div > div > div > div > img {
+            position: relative;
+            left: 855px;
+            bottom: 115px;
+        }
+
+        footer > session > session > div > div > div > div > div > div > div > div > div > h2 {
             position: relative;
             color: white;
-            font-size: 20px;
-            left: 550px;
+            font-size: 15px;
+            left: 600px;
+            top: -265px;
         }
 
-        footer > session > session > div > div > div > div > div > div > div > h1 {
+        footer > session > session > div > div > div > div > div > div > div > div > div > h1 {
             position: relative;
             color: white;
             font-size: 15px;
             left: 650px;
-            top: -12px;
+            top: -275px;
         }
 
+        #txtName{
+            width: 300px;
+        }
+
+        #txtEmail{
+            width: 300px;
+        }
+
+        #txtQuestion{
+            height: 200px;
+            width: 300px;
+        }
 
     </style>
 </head>
@@ -885,16 +957,24 @@
                                             <h4>Contact Us</h4>
                                             <iframe [um-
                                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31744.13422944449!2d80.41586895409058!3d5.99242532221553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae115377cc3eaf9%3A0x2463154f2d989243!2sWeligama!5e0!3m2!1sen!2slk!4v1641658472254!5m2!1sen!2slk"
-                                                    width="350" height="350" style="border:1px;" allowfullscreen=""
+                                                    width="550" height="350" style="border:1px;" allowfullscreen=""
                                                     loading="lazy"></iframe>
 
                                             <from action="">
-                                                <!-- <fieldset>-->
-                                                <input id="txtName" type="text" placeholder="Name"><br><br>
-                                                <input id="txtEmail" type="text"
-                                                       placeholder="What's Your e-mail?"><br><br>
-                                                <input id="txtQuestion" type="text" placeholder="Your Question">
-                                                <!-- </fieldset>-->
+                                                <div>
+                                                    <input id="txtName" type="text" placeholder="Name"><br><br>
+                                                    <div>
+                                                        <input id="txtEmail" type="text"
+                                                               placeholder="What's Your e-mail?"><br><br>
+                                                        <div>
+                                                            <input id="txtQuestion" type="text"
+                                                                   placeholder="Your Question"
+                                                                    >
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
                                             </from>
                                             <button>Submit</button>
                                         </div>
@@ -916,19 +996,25 @@
         <session>
             <div>
                 <div>
-                    <img src="assets/images/Social%20Media/1.png" width="100" alt="What's app">
+                    <img src="assets/images/Social%20Media/1.png" width="50" alt="What's app">
                     <div>
-                        <img src="assets/images/Social%20Media/2.png" width="100" alt="linked in">
+                        <img src="assets/images/Social%20Media/2.png" width="60" alt="linked in">
                         <div>
-                            <img src="assets/images/Social%20Media/3.png" width="100" alt="Git Hub">
+                            <img src="assets/images/Social%20Media/3.png" width="50" alt="Git Hub">
                             <div>
-                                <img src="assets/images/Social%20Media/4.png" width="100"
-                                     alt="Facebook Instagram Twitter">
+                                <img src="assets/images/Social%20Media/5.png" width="50"
+                                     alt="Youtube">
                                 <div>
-                                    <img src="assets/images/Social%20Media/5.png" width="100" alt="Youtube">
+                                    <img src="assets/images/Social%20Media/6.png" width="50" alt="Facebook">
                                     <div>
-                                        <h2> W.G.Shehan Govinda.All Right Reserved.</h2>
-                                        <h1>Java Software Developer.</h1>
+                                        <img src="assets/images/Social%20Media/7.png" width="50" alt="Instagram">
+                                        <div>
+                                            <img src="assets/images/Social%20Media/8.png" width="50" alt="Twitter">
+                                            <div>
+                                                <h2> W.G.Shehan Govinda.All Right Reserved.</h2>
+                                                <h1>Java Software Developer.</h1>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
