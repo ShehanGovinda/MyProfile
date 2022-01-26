@@ -13,18 +13,19 @@ Github My Profile Page URL :- https://shehangovinda.github.io/MyProfile/
 
 Some images of my website
 
-![](assets/images/Profile Screen Shots/1.png)
+img
+![](assets/images/Profile%20Screen%20Shots/1.png)
 
-![](assets/images/Profile Screen Shots/2.png)
+![](assets/images/Profile%20Screen%20Shots/2.png)
 
-![](assets/images/Profile Screen Shots/3.png)
+![](assets/images/Profile%20Screen%20Shots/3.png)
 
-![](assets/images/Profile Screen Shots/4.png)
+![](assets/images/Profile%20Screen%20Shots/4.png)
 
-![](assets/images/Profile Screen Shots/5.png)
+![](assets/images/Profile%20Screen%20Shots/5.png)
 
-![](assets/images/Profile Screen Shots/6.png)
+![](assets/images/Profile%20Screen%20Shots/6.png)
 
-![](assets/images/Profile Screen Shots/7.png)
+![](assets/images/Profile%20Screen%20Shots/7.png)
 
-![](assets/images/Profile Screen Shots/8.png)
+![](assets/images/Profile%20Screen%20Shots/8.png)
