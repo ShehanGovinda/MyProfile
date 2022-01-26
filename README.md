@@ -13,7 +13,6 @@ Github My Profile Page URL :- https://shehangovinda.github.io/MyProfile/
 
 Some images of my website
 
-img
 ![](assets/images/Profile%20Screen%20Shots/1.png)
 
 ![](assets/images/Profile%20Screen%20Shots/2.png)
