@@ -294,41 +294,41 @@
     $("#renew").click(function () {
 
         //if($("#custName").val() == "" && $("#nic").val() == "" && $("#address").val() == "" && $("#contact").val() == ""){
-            var id =$("#custID").val();
-            for (var i=0; i<customerDB.length; i++){
-                if(customerDB[i].getID() == id){
-                    customerDB[i].setName($("#custName").val());
-                    customerDB[i].setNIC($("#nic").val());
-                    customerDB[i].setAddress($("#address").val());
-                    customerDB[i].setContact($("#contact").val());
-                    console.log(customerDB[i].getAddress());
+        var id =$("#custID").val();
+        for (var i=0; i<customerDB.length; i++){
+            if(customerDB[i].getID() == id){
+                customerDB[i].setName($("#custName").val());
+                customerDB[i].setNIC($("#nic").val());
+                customerDB[i].setAddress($("#address").val());
+                customerDB[i].setContact($("#contact").val());
+                console.log(customerDB[i].getAddress());
 
-                    loadAllCustomers();
+                loadAllCustomers();
 
-                    swal({
-                        title:"Confirmation..!",
-                        text: "Customer Updated Successfully",
-                        icon : "confirm",
-                        timer : 2000
-                    });
+                swal({
+                    title:"Confirmation..!",
+                    text: "Customer Updated Successfully",
+                    icon : "confirm",
+                    timer : 2000
+                });
 
-                    $("#custID").val("");
-                    $("#custName").val("");
-                    $("#nic").val("");
-                    $("#address").val("");
-                    $("#contact").val("");
+                $("#custID").val("");
+                $("#custName").val("");
+                $("#nic").val("");
+                $("#address").val("");
+                $("#contact").val("");
 
-                    $("#renew").attr("disabled", true);
-                }
+                $("#renew").attr("disabled", true);
             }
-         /*}else {
-            swal({
-                title:"Error..!",
-                text: "Fill all fields and try again..",
-                icon : "error",
-                timer : 2000
-            });
-        }*/
+        }
+        /*}else {
+           swal({
+               title:"Error..!",
+               text: "Fill all fields and try again..",
+               icon : "error",
+               timer : 2000
+           });
+       }*/
 
     });
 
